@@ -5,5 +5,5 @@ RUN 	apt update &&\
 		curl -sL https://deb.nodesource.com/setup_12.x -o nodesource_setup.sh &&\
 		bash nodesource_setup.sh &&\
 		apt install -y nodejs &&\
-		git clone https://github.com/skirianov/educative-node/tree/main/express/hello-world.git &&\ 
+		git clone https://github.com/skirianov/ed-negp-e-hello &&\ 
 		npm install && node index.js
