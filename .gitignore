@@ -1,4 +1,3 @@
 node_modules
-.Dockerfile
-.express-hello-world.tar.gz
 .package-lock.json
+.DS_Store
