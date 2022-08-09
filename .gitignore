@@ -1,2 +1,4 @@
 node_modules
-Dockerfile
+/.Dockerfile
+/.express-hello-world.tar.gz
+/.package-lock.json
