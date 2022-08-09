@@ -6,5 +6,7 @@ RUN 	apt update &&\
 		bash nodesource_setup.sh &&\
 		apt install -y nodejs &&\
 		git clone https://github.com/skirianov/ed-negp-e-hello.git &&\
+        cd ed-negp-e-hello &&\
 		npm install
         
+EXPOSE 8080
